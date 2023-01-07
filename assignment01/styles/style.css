@@ -1,0 +1,245 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.failure-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fail-details {
+
+    margin: 100px;
+}
+
+.banner-container {
+    background-image: url(../assets/banner/banner1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+.banner-title {
+    color: #1d1b1b;
+    font-size: 5.5rem;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+.possible{
+    color:#f79d00;
+}
+.banner-description {
+    margin-left: 600px;
+    text-align: right;
+}
+.paragraph-allign {
+    font-size: 1.2rem;
+    color: #444343;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 2rem 0 2rem 0;
+    line-height: 2rem;
+    text-align: right;
+
+}
+
+.banner-btn {
+    background-color: #ece1c1;
+    color: #4d4947;
+    cursor: pointer;
+    font-weight: normal;
+}
+
+.banner-btn:hover {
+    border: none;
+    background: #febb00;
+    color: #654f00;
+    cursor: pointer;
+}
+.failure-title {
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.failure-title:hover{
+    color: red;
+}
+.failure-title-description {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+    line-height: 2rem;
+    text-align: justify;
+}
+.ulist li:hover{
+    color: red;
+}
+.btn {
+    margin-top: 20px;
+    border-radius: 5px;
+    width: 160px;
+    height: 64px;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+}
+ul {
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul li {
+    padding: 5px;
+}
+
+ul li:before {
+    content: '✓';
+    color: green;
+    margin-right: 2rem;
+}
+
+
+.my-plans {
+    text-align: center;
+    margin: 10rem 0 10rem 0;
+}
+
+.my-plan-title {
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 2.8rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.plan-details {
+    margin-top:5rem;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 100px;
+    font-family: Arial, Helvetica, sans-serif;    
+    cursor: pointer;
+}
+.card{
+    width: 300px;
+    height: 200px;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 #0000001a;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    padding-top: 50px;
+    background-color: #ffffff;
+}
+.topic-name {
+    color: #3a3939;
+    margin: 10px;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.topic-description {
+    color: #3b3b3b;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+.postive-mind {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-image: url(../assets/watch.png); */
+ 
+    border-radius: 25px;
+     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   background-image: linear-gradient(90deg, #6c3775 5%, rgba(241, 91, 34, 0) 100%), url(../assets/watch.png);
+    
+    height: 30vh;
+    padding: 40px;
+}
+
+.postive-mind-content {
+    margin-left: auto;
+    padding-top: 2rem;
+}
+
+.postive-mind-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: #FFFFFF;
+}
+.postive-mind-btn {
+    margin-top: 2.5rem;
+    background: white;
+    color: #690283;
+    cursor: pointer;
+}
+.postive-mind-btn:hover {
+
+    margin-top: 2.5rem;
+    background:#690283;
+    color: #ffffff;
+}
+footer {
+    display: flex;
+    justify-content: space-around;
+    background: #151414;
+    color: white;
+    margin-top: 100px;
+    padding: 116px 0px 80px 0px;
+}
+
+.about {
+    font-weight: bold;
+    font-size: 2.5rem;
+    padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.about-p {
+    font-size: 1.2rem;
+    line-height: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+    
+}
+
+.subscribe {
+    font-weight: normal;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 20px;
+}
+
+.email {
+    margin: 10px 0px;
+}
+.txt:hover {
+    text-decoration: underline;
+    color: #febb00;
+    cursor: pointer;
+}
+.mobile {
+    margin-bottom: 20px;
+}
+.social{
+    margin-block: 50px;
+    cursor: pointer;
+}
+.social-btn{
+    padding-right: 20px;
+}
+input {
+    width: 330px;
+    height: 30px;
+    padding: 7px;
+}
